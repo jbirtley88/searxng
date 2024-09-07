@@ -20,16 +20,20 @@ OUTPUT_FORMATS = ['html', 'csv', 'json', 'rss']
 SXNG_LOCALE_TAGS = ['all', 'auto'] + list(l[0] for l in sxng_locales)
 SIMPLE_STYLE = ('auto', 'light', 'dark')
 CATEGORIES_AS_TABS = {
+    'cloud': {},
+    'email': {},
+    'files': {},
     'general': {},
     'images': {},
-    'videos': {},
-    'news': {},
+    'it': {},
     'map': {},
     'music': {},
-    'it': {},
+    'my stuff': {},
+    'news': {},
     'science': {},
-    'files': {},
     'social media': {},
+    'videos': {},
+    'work': {},
 }
 STR_TO_BOOL = {
     '0': False,

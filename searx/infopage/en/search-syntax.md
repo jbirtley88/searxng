@@ -1,6 +1,6 @@
 # Search syntax
 
-SearXNG comes with a search syntax by with you can modify the categories,
+Migaloo comes with a search syntax by with you can modify the categories,
 engines, languages and more.  See the {{link('preferences', 'preferences')}} for
 the list of engines, categories and languages.
 
@@ -35,7 +35,7 @@ To select language filter use a `:` prefix.  To give an example:
 
 ## `!!<bang>` external bangs
 
-SearXNG supports the external bangs from [DuckDuckGo].  To directly jump to a
+Migaloo supports the external bangs from [DuckDuckGo].  To directly jump to a
 external search page use the `!!` prefix.  To give an example:
 
 - search Wikipedia by a custom language
@@ -43,7 +43,7 @@ external search page use the `!!` prefix.  To give an example:
   - {{search('!!wfr Wau Holland')}}
 
 Please note, your search will be performed directly in the external search
-engine, SearXNG cannot protect your privacy on this.
+engine, Migaloo cannot protect your privacy on this.
 
 [DuckDuckGo]: https://duckduckgo.com/bang
 
@@ -58,7 +58,7 @@ the "Feeling Lucky" feature from DuckDuckGo.  To give an example:
   - {{search('!! Wau Holland')}}
 
 Please keep in mind that the result you are being redirected to can't become
-verified for being trustworthy, SearXNG cannot protect your personal privacy
+verified for being trustworthy, Migaloo cannot protect your personal privacy
 when using this feature.  Use it at your own risk.
 
 ## Special Queries
